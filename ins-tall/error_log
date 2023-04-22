@@ -1,0 +1,12 @@
+[12-Feb-2021 10:38:41 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function split() in /home/pensummi/public_html/ng/install/install.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/pensummi/public_html/ng/install/install.php on line 15
+[12-Feb-2021 10:40:19 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function split() in /home/pensummi/public_html/ng/install/install.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/pensummi/public_html/ng/install/install.php on line 15
+[12-Feb-2021 10:42:00 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function split() in /home/pensummi/public_html/ng/install/install.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/pensummi/public_html/ng/install/install.php on line 15

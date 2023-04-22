@@ -1,0 +1,43 @@
+RewriteEngine on
+RewriteCond %{HTTPS} off 
+RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+RewriteRule ^templates/.*$ - [L]
+#RewriteRule ^([^/.]*).php$ $1.php
+RewriteRule ^office/.*$ - [L]
+RewriteRule ^notify/.*$ - [L]
+RewriteRule ^data/.*$ - [L]
+RewriteRule ^images/.*$ - [L]
+RewriteRule ^includes/.*$ - [L]
+RewriteRule ^member/.*$ - [L]
+RewriteRule ^install/.*$ - [L]
+RewriteRule ^js/.*$ - [L]
+RewriteRule ^fonts/.*$ - [L]
+RewriteRule ^css/.*$ - [L]
+RewriteRule ^img/.*$ - [L]
+RewriteRule ^main/.*$ - [L]
+RewriteRule ^mlm-Balvinder/.*$ - [L]
+RewriteRule ^uploads/.*$ - [L]
+
+RewriteRule ^([^/.]*)/(.*)  sites/$2
+
+#AddType application/x-httpd-php .php .html
+
+# BEGIN cPanel-generated php ini directives, do not edit
+# Manual editing of this file may result in unexpected behavior.
+# To make changes to this file, use the cPanel MultiPHP INI Editor (Home >> Software >> MultiPHP INI Editor)
+# For more information, read our documentation (https://go.cpanel.net/EA4ModifyINI)
+#<IfModule php7_module>
+
+#</IfModule>
+#<IfModule lsapi_module>
+
+#</IfModule>
+# END cPanel-generated php ini directives, do not edit
+
+# php -- BEGIN cPanel-generated handler, do not edit
+# Set the “alt-php74” package as the default “PHP” programming language.
+#<IfModule mime_module>
+ # AddHandler application/x-httpd-alt-php74 .php .php7 .phtml
+#</IfModule>
+# php -- END cPanel-generated handler, do not edit
